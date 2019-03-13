@@ -156,7 +156,7 @@
 				<defaultvalue>em().getEnumerationValue("ConsignmentEntryStatus","CREATED")</defaultvalue>
 			    </attribute>
 			</attributes>
-		    </itemtype>
+		    </itemtype>-->
 		<!--<itemtype code="TestType3"
 				  jaloclass="com.sap.productsupport.jalo.TestType3"
 				  extends="GenericItem" autocreate="true" generate="true">
