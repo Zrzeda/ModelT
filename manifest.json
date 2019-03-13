@@ -148,7 +148,11 @@
         {
      	 "key":"hac.webroot",
      	 "value":"/hac"
-    	}
+    	},
+       {
+     	 "key":"auditing.enabled",
+     	 "value":"false"
+       }
     ],
    "aspects": [
          {
