@@ -1,5 +1,5 @@
 {
-   "commerceSuiteVersion": "1808",
+   "commerceSuiteVersion": "1811",
    "troubleshootingModeEnabled": true,
    "extensions": [
    	   "mcc",
@@ -32,7 +32,6 @@
        "smarteditaddon",
        "cmssmartedit",
        "cmsbackoffice",
-       "cmsmulticountrycockpit",
        "multicountrysampledataaddon",       
        "textfieldconfiguratortemplatebackoffice",
        "textfieldconfiguratortemplateaddon",
@@ -42,13 +41,13 @@
        "pcmbackofficesamplesaddon",
        "customsitefulfilmentprocess",
        "customsitefulfilmentprocess",
-       "customsitecockpits",
        "customsitecore",
        "customsitefacades",
        "customsitetest",
        "customsiteinitialdata",
        "customsitestorefront",
-       "personalizationsearchsamplesaddon"
+       "personalizationsearchsamplesaddon",
+       "customtaskscheduler"
    ],
    "storefrontAddons" : [
         {
@@ -117,7 +116,6 @@
             "template": "yacceleratorstorefront"
 
         }
-        
 
         
     ],
@@ -144,15 +142,7 @@
             "key": "test.property.5",
             "value": "persona.production",
             "persona": "production"
-        },
-        {
-     	 "key":"hac.webroot",
-     	 "value":"/hac"
-    	},
-       {
-     	 "key":"auditing.enabled",
-     	 "value":"false"
-       }
+
     ],
    "aspects": [
          {
@@ -169,7 +159,7 @@
                 },
                 {
                     "name": "backoffice",
-                    "contextPath": "/backoffice"
+                    "contextPath": ""
                 },
                 {
                     "name": "cmscockpit",
@@ -227,12 +217,12 @@
                 {
                     "key": "processengine.process.canjoinpreviousnode.default",
                     "value": "true"
-                }             
+                }
             ],
             "webapps": [
                 {
                     "name": "hac",
-                    "contextPath": "/hac"
+                    "contextPath": ""
                 },
                 {
                     "name": "mediaweb",
