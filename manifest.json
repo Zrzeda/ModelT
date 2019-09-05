@@ -142,7 +142,7 @@
             "key": "test.property.5",
             "value": "persona.production",
             "persona": "production"
-
+        }
     ],
    "aspects": [
          {
