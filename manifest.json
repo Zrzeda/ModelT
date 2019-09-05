@@ -175,7 +175,7 @@
                     "value": "LRU"
                 },
                 {
-                    "key": "yacceleratorstorefront.additionalWebSpringConfigs.acceleratorstorefrontcommons",
+                    "key": "customsitestorefront.additionalWebSpringConfigs.acceleratorstorefrontcommons",
                     "value": "classpath:/acceleratorstorefrontcommons/web/spring/acceleratorstorefrontcommons-spring.xml"
                 }
             ],
