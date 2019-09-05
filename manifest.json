@@ -173,6 +173,10 @@
                {
                     "key": "regioncache.queryregion.evictionpolicy",
                     "value": "LRU"
+                },
+                {
+                    "key": "yacceleratorstorefront.additionalWebSpringConfigs.acceleratorstorefrontcommons",
+                    "value": "classpath:/acceleratorstorefrontcommons/web/spring/acceleratorstorefrontcommons-spring.xml"
                 }
             ],
             "webapps": [
