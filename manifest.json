@@ -1,32 +1,201 @@
 {
-   "commerceSuiteVersion": "18.08.1",
+   "commerceSuiteVersion": "1905",
+   "troubleshootingModeEnabled": true,
    "extensions": [
-       "yacceleratorstorefront",
-       "backoffice",
-       "platformbackoffice",
-       "electronicsstore",
-       "basecommercebackoffice",       
-       "yacceleratorfulfilmentprocess",
-       "solrfacetsearchbackoffice",
-       "commerceservicesbackoffice",
-       "cmscockpit",
-       "smartedit"
+    "adaptivesearchsolr",
+    "adaptivesearchbackoffice",
+    "b2bcommercebackoffice",
+    "solrfacetsearchbackoffice",
+    "yacceleratorbackoffice",
+    "yacceleratorinitialdata",
+    "yacceleratorfulfilmentprocess",
+    "yacceleratorstorefront",
+    "ycommercewebservices",
+    "ycommercewebservicestest",
+    "electronicsstore",
+    "powertoolsstore",
+    "acceleratorwebservicesaddon",
+    "b2bacceleratoraddon",
+    "commerceorgaddon",
+    "commerceorgsamplesaddon",
+    "orderselfserviceaddon",
+    "assistedservicestorefront",
+    "customerticketingaddon",
+    "customersupportbackoffice",
+    "rulebuilderbackoffice",
+    "couponbackoffice",
+    "droolsruleengineservices",
+    "couponfacades",
+    "couponservices",
+    "promotionenginesamplesaddon",
+    "textfieldconfiguratortemplatebackoffice",
+    "textfieldconfiguratortemplateaddon",
+    "cmswebservices",
+    "smarteditwebservices",
+    "permissionswebservices",
+    "smarteditaddon",
+    "cmssmartedit",
+    "previewwebservices",
+    "cmssmarteditwebservices",
+    "cmsoccaddon",
+    "pcmbackofficesamplesaddon",
+    "secureportaladdon",
+    "datahubbackoffice",
+    "sapcoreaddon",
+    "sapcoreconfigurationbackoffice",
+    "sapmodelbackoffice",
+    "sapcustomerb2bbackoffice",
+    "b2bsappricing",
+    "sappricingbackoffice",
+    "ysaporderfulfillment",
+    "saporderexchangeb2b",
+    "saporderexchangebackoffice",
+    "ysapordermgmtb2baddon",
+    "sapordermgmtbackoffice",
+    "b2bsapproductavailability",
+    "sapproductavailabilitybackoffice",
+    "sapcreditcheckbackoffice",
+    "sapcoretest",
+    "sapreturnsexchange",
+    "sapreturnsexchangeb2b",
+    "ysaperpreturnprocess",
+    "outboundservices",
+    "odata2webservices",
+    "odata2webservicesfeaturetests",
+    "kymaintegrationbackoffice",
+    "yb2bacceleratorstorefront"
    ],
-   "storeFrontExtension": "yacceleratorstorefront",
-   "storeFrontWebRoot": "/yacceleratorstorefront",
-   "properties": [
+   "storefrontAddons" : [
         {
-            "key": "test.property.1",
-            "value": "test.property.1.value"
+            "addon": "commerceorgsamplesaddon",
+            "storefront": "yacceleratorstorefront",
+            "template": "yacceleratorstorefront"
         },
         {
-            "key": "test.property.2",
-            "value": "test.property.2.value"
+            "addon": "assistedservicestorefront",
+            "storefront": "yacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "customerticketingaddon",
+            "storefront": "yacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "promotionenginesamplesaddon",
+            "storefront": "yacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "textfieldconfiguratortemplateaddon",
+            "storefront": "yacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "orderselfserviceaddon",
+            "storefront": "yacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "smarteditaddon",
+            "storefront": "yacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "sapcoreaddon",
+            "storefront": "yacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "pcmbackofficesamplesaddon",
+            "storefront": "yacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        }
+        
+    ],
+   "properties": [
+        {
+     	      "key":"hac.webroot",
+     	      "value":"/hac"
+    	  },
+    	{
+    		"key":"catalog.sync.active",
+    		"value":"false"
+    	},
+        {
+            "key":"persistence.legacy.mode",
+            "value":"false"
+        },
+        {
+     	      "key":"yb2bacceleratorstorefront.illegalrequirementstest.excluded",
+     	      "value":"true"
+        },
+
+        {
+     	      "key":"keygen.customer.sap_customer_id.start",
+     	      "value":"0000500200"
+        },
+        {
+     	      "key":"keygen.customer.sap_contact_id.start",
+     	      "value":"0000600200"
+        },
+
+        {
+     	      "key":"keygen.order.code.start",
+     	      "value":"0007131120"
+        },
+
+        {
+     	      "key":"keygen.returnorder.code.start",
+     	      "value":"6782001"
+        },
+
+        {
+     	      "key":"sapcustomerexchange.outbound.datahub.feed",
+     	      "value":"SAPCONSUMER_OUTBOUND_FEED"
+        },
+        {
+     	      "key":"sapcoreconfiguration.datahuboutbound.enabled",
+     	      "value":"true"
+        },
+        {
+     	      "key":"numberseries.cache.size.order_code",
+     	      "value":"1"
+        },
+        {
+     	      "key":"saporderexchange.orderoutbound.maxRetries",
+     	      "value":"3"
+        },
+        { 
+            "key": "datahubadapter.security.https.enabled",
+            "value" : "false"
+        } ,
+        {
+            "key": "datahubadapter.datahuboutbound.user",
+            "value":"admin"
+        },
+        {
+            "key": "datahubadapter.datahuboutbound.password",
+            "value":"nimda"
+        },
+        { 
+            "key": "datahub.backoffice.rest.client.username.admin",
+            "value":"admin"
+        },
+        { 
+            "key": "datahub.backoffice.rest.client.password.admin",
+            "value":"nimda"
+        },
+        { 
+            "key": "datahub.backoffice.rest.client.username.developer",
+            "value":"admin"
+        },
+        { 
+            "key": "datahub.backoffice.rest.client.password.developer",
+            "value":"nimda"
         }
     ],
-   "project": "ps_cc2v1",
-   "recipe": "pipeline_b2c_dockerized",
-   "resultingImageVersion": "ps_cc2v1",    
+    
    "aspects": [
          {
             "name": "backoffice",
@@ -45,12 +214,12 @@
                     "contextPath": "/backoffice"
                 },
                 {
-                    "name": "cmscockpit",
-                    "contextPath": "/cmscockpit"
+                    "name": "datahubadapter",
+                    "contextPath": "/datahubadapter"
                 },
                 {
-                    "name": "smartedit",
-                    "contextPath": "/smartedit"
+                    "name": "oauth2",
+                    "contextPath": "/authorizationserver"
                 }
             ]
         },
@@ -73,11 +242,8 @@
                 },
                 {
                     "name": "yacceleratorstorefront",
-                    "contextPath": "/backoffice"
-                },
-                {
-                    "name": "smartedit",
-                    "contextPath": "/smartedit"
+                    "contextPath": ""
+
                 }
             ]
         },
@@ -107,11 +273,7 @@
                 {
                     "key": "processengine.process.canjoinpreviousnode.default",
                     "value": "true"
-                },
-                {
-                    "key": "yacceleratorfulfilmentprocess.fraud.scoreLimit",
-                    "value": "10000"
-                }                  
+                }             
             ],
             "webapps": [
                 {
@@ -123,8 +285,12 @@
                     "contextPath": "/medias"
                 },
                 {
-                    "name": "yacceleratorstorefront",
-                    "contextPath": "/backoffice"
+                    "name": "datahubadapter",
+                    "contextPath": "/datahubadapter"
+                },
+                {
+                    "name": "oauth2",
+                    "contextPath": "/authorizationserver"
                 }
             ]
         }
