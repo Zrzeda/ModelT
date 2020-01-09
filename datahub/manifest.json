@@ -28,5 +28,9 @@
         "saperpreturnorder-raw",
         "saperpreturnorder-canonical",
         "saperpreturnorder-target" 
+        
+        "eluxzprice-canonical"
+        "eluxzprice-raw"
+        "eluxzprice-target"
     ]
 }
