@@ -28,8 +28,9 @@
 			<dependency>
 				<groupId>com.hybris.datahub</groupId>
 				<artifactId>datahub-extension-sdk</artifactId>
-				<version>${datahub.version}</version>
-				<scope>provided</scope>
+				<version>19.05.3-RC1</version>
+				<scope>system</scope>
+				<systemPath>${basedir}/../config/lib/datahub-extension-sdk-19.05.3-RC1.jar</systemPath>
 			</dependency>
 			<dependency>
 				<groupId>com.electrolux.b2c</groupId>
@@ -46,12 +47,13 @@
 				<artifactId>eluxzprice-target</artifactId>
 				<version>1.0-SNAPSHOT</version>
 			</dependency>
+			<!--
 			<dependency>
 				<groupId>com.google.guava</groupId>
 				<artifactId>guava</artifactId>
 				<version>${guava.version}</version>
 				<scope>provided</scope>
-			</dependency>
+			</dependency>-->
 		</dependencies>
 	</dependencyManagement>
 
