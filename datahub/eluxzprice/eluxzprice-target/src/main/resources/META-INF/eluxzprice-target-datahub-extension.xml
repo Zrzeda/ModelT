@@ -28,9 +28,6 @@
 			<password>${datahub.extension.password}</password>
 			<exportCodes>
 				<exportCode>#% impex.setLocale(Locale.ENGLISH)</exportCode>
-            	<exportCode>
-					$catalogVersion=catalogVersion(catalog(id[default='eluxb2cGlobalProductCatalog']),version[default='Online'])[unique=true,default='eluxb2cGlobalProductCatalog:Online']
-				</exportCode>
 			</exportCodes>
 			<targetItems>
 				<item>
