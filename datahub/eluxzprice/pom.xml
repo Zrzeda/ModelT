@@ -57,22 +57,20 @@
 		</dependencies>
 	</dependencyManagement>
 
-	<dependencies>
+	<!--<dependencies>
 		<dependency>
-			<dependency>
-				<groupId>com.hybris.datahub</groupId>
-				<artifactId>datahub-extension-sdk</artifactId>
-				<version>19.05.3-RC1</version>
-				<scope>system</scope>
-				<systemPath>${basedir}/../config/lib/datahub-extension-sdk-19.05.3-RC1.jar</systemPath>
-			</dependency>
+			<groupId>com.hybris.datahub</groupId>
+			<artifactId>datahub-extension-sdk</artifactId>
+			<version>19.05.3-RC1</version>
+			<scope>system</scope>
+			<systemPath>${basedir}/config/lib/datahub-extension-sdk-19.05.3-RC1.jar</systemPath>
 		</dependency>
-		<!--
+		
 		<dependency>
 			<groupId>com.google.guava</groupId>
 			<artifactId>guava</artifactId>
-		</dependency>-->
-	</dependencies>
+		</dependency>
+	</dependencies>-->
 
 	<build>
 		<pluginManagement>
