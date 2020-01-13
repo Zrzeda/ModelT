@@ -27,7 +27,7 @@
 			<userName>${datahub.extension.userName}</userName>
 			<password>${datahub.extension.password}</password>
 			<exportCodes>
-				<exportCode>#% impex.setLocale(Locale.ENGLISH)</exportCode>
+				<exportCode>#%impex.setLocale(Locale.ENGLISH)</exportCode>
 			</exportCodes>
 			<targetItems>
 				<item>
