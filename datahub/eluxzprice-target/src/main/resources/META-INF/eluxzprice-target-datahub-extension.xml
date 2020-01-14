@@ -17,6 +17,9 @@
 		<dependency>
 			<extension>eluxzprice-canonical</extension>
 		</dependency>
+		<dependency>
+			<extension>saperpreturnorder-target</extension>
+		</dependency>
 	</dependencies>
 
 	<targetSystems>
