@@ -1,5 +1,5 @@
 {
-    "dataHubVersion" : "1905.3",
+    "dataHubVersion" : "1905.13",
     "extensions" : [ 
         "sapcoreconfiguration",
         "sapidocintegration",
