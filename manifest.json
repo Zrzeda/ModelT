@@ -62,8 +62,7 @@
     "outboundservices",
     "odata2webservices",
     "odata2webservicesfeaturetests",
-    "kymaintegrationbackoffice",
-    "yb2bacceleratorstorefront"
+    "kymaintegrationbackoffice"
    ],
    "storefrontAddons" : [
         {
@@ -237,8 +236,8 @@
                     "contextPath": "/hac"
                 },
                 {
-                    "name": "yb2bacceleratorstorefront",
-                    "contextPath": "/yb2bacceleratorstorefront"
+                    "name": "trainingstorefront",
+                    "contextPath": "/trainingstorefront"
                 },
                 {
                     "name": "yacceleratorstorefront",
