@@ -237,14 +237,6 @@
                     "contextPath": "/hac"
                 },
                 {
-                    "name": "training",
-                    "contextPath": "/training"
-                },
-                {
-                    "name": "yacceleratorstorefront",
-                    "contextPath": "/yacceleratorstorefront"
-                },
-                {
                     "name": "mediaweb",
                     "contextPath": "/medias"
                 }
